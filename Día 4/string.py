@@ -79,3 +79,9 @@ print(index_2)
 company_2= 'Coding for all people'
 ocurrence= company_2.rfind('e')
 print(ocurrence) 
+
+sentence= 'You cannot end a sentence with because because because is a conjunction'
+print(sentence.index('because'))
+print(sentence.rindex('because'))
+sentence.replace('because because because')
+print(sentence.find('because'))
