@@ -11,3 +11,4 @@ print(mixed_data_types)
 it_companies= ['Facebook', 'Google', 'Microsoft', 'Apple', 'IDM', 'Oracle', 'Amazon']
 print(it_companies)
 len(it_companies) #8
+#ayer me comí a tu abuela 
