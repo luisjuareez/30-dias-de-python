@@ -11,4 +11,19 @@ print(mixed_data_types)
 it_companies= ['Facebook', 'Google', 'Microsoft', 'Apple', 'IDM', 'Oracle', 'Amazon']
 print(it_companies)
 len(it_companies) #8
-#ayer me comí a tu abuela 
+
+print(it_companies)
+print('first_company', it_companies[0]) 
+it_companies.insert('Apple', ['Netflix'])
+it_companies[4]= 'Netflix'
+print(it_companies) #10
+it_companies.append('Google')
+it_companies.insert(4,'Canon')
+print(it_companies) #12
+it_companies[1]=it_companies[1].upper()
+print('joined list: t/', '#;'.join(it_companies)) #13
+it_companies= ['Facebook', 'Google', 'Microsoft', 'Apple', 'IDM', 'Oracle', 'Amazon']
+does_exist= 'Amazon' in it_companies
+print(does_exist) #15
+it_companies.sort()
+it_companies.reverse()
